@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity implements InicioFragment.On
         fragmentInicio = new InicioFragment();
 
         getSupportFragmentManager().beginTransaction().replace(R.id.contenedorFragments,fragmentInicio).commit();
+        
     }
 
     @Override
