@@ -16,9 +16,7 @@ public class MainActivity extends AppCompatActivity implements InicioFragment.On
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         fragmentInicio = new InicioFragment();
-
         getSupportFragmentManager().beginTransaction().replace(R.id.contenedorFragments,fragmentInicio).commit();
     }
 
